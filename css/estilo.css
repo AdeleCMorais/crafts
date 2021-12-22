@@ -1,0 +1,94 @@
+h1 {	
+	background-color: #150a91;
+	color: black;
+	font-size: 56px;
+	width: 1350px;
+}
+
+#segundop{	
+	font-weight: bold;
+	background-color:#150a91;
+}
+
+.vermelho{
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#titulo{
+	background: black;
+	width:100%;
+	padding:20px;
+}
+
+td img {
+	width: 250px;
+	height: 200px;
+	border-radius: 15%;
+	font-weight:bold;
+}
+
+.azul{ 	
+	background-color: #150a91;
+	width: 1350px;
+	font-size: 22px;
+}
+
+table{
+	border-spacing: 25px;
+	font-size: 36px;
+	color: #150a91;
+	width: 250px;
+	border-spacing: 25px;
+}
+
+body{
+	margin-left:20px;
+	position: absolute;
+	background-color: black;
+}
+
+#entrega{
+	position:fixed;
+	bottom: 25px;
+	right:10px;
+	height:95px;
+	width:300px;
+}
+
+#tel{
+	position: absolute;
+	left:120px;
+	height:80px;
+	background-color:black;
+	color:blue;
+	margin-top: 10px;
+	border-radius: 15%;
+	padding-bottom:0;
+	padding:10px;
+	border-radius:15px;		
+}
+
+#tel h4{
+	margin:0;
+	font-size: 18px;
+}
+
+#tel h5{ 
+	margin: 0;
+	margin-top: 10px;
+}
+
+#list{
+	color:rgb(255, 0, 149);
+	font-size: xx-large;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	height:550px;
+	width:250px;
+	
+}
+
+		

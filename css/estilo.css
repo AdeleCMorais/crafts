@@ -1,13 +1,16 @@
 h1 {	
-	background-color: #150a91;
+	background-color: blue;
 	color: black;
 	font-size: 56px;
 	width: 1350px;
 }
-
+.mensagemNatal{
+	color:gold;
+	font-size: xx-large;
+}
 #segundop{	
 	font-weight: bold;
-	background-color:#150a91;
+	background-color:blue;
 }
 
 .vermelho{
@@ -23,14 +26,14 @@ h1 {
 }
 
 td img {
-	width: 250px;
-	height: 200px;
-	border-radius: 15%;
+	width: 200px;
+	height: 250px;
+	border-radius: 10%;
 	font-weight:bold;
 }
 
 .azul{ 	
-	background-color: #150a91;
+	background-color: blue;
 	width: 1350px;
 	font-size: 22px;
 }
@@ -38,7 +41,7 @@ td img {
 table{
 	border-spacing: 25px;
 	font-size: 36px;
-	color: #150a91;
+	color: blue;
 	width: 250px;
 	border-spacing: 25px;
 }
@@ -83,12 +86,51 @@ body{
 #list{
 	color:rgb(255, 0, 149);
 	font-size: xx-large;
-	position: fixed;
-	bottom: 50px;
+	position: absolute;
+	bottom: 80px;
 	right: 20px;
 	height:550px;
 	width:250px;
 	
 }
+.peca{
+	color:blue;
+	font: bold;
+	font-size: xx-large;
+	padding-left: 800px;
+	
 
-		
+}
+
+.rodape{
+	background-color: rgb(10, 20, 107);
+	color:rgb(113, 243, 113);
+	text-align:left;
+	font-size:larger;
+
+}	
+
+.bitcoin{
+	font-size: large;
+	color:orange;
+	padding-bottom: 50px;
+	font: bold;
+	font-size: larger;
+
+}
+
+.assinatura{
+	color:white;
+	text-align: right;
+	padding-right: 250px;
+	
+}
+.bit{
+	color:orange;
+}
+.LinkedIn{
+	text-align: right;
+	color:white;
+	padding-right: 250px;
+	padding-bottom: 15px;
+}

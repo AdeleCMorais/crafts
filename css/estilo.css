@@ -1,28 +1,43 @@
-h1 {	
-	background-color: blue;
-	color: black;
-	font-size: 56px;
-	width: 1350px;
+body{
+	margin: 2px;
+	position: absolute;
+	background-color: black;
+	font-family: 'Vujahday Script', cursive;
 }
+
+
+h1 {	
+	color:blue;
+	font-size: 160px;
+	padding-left:100px;
+	font:bold;
+	text-align:left;
+	margin-bottom: 0%;
+	font-family: 'Vujahday Script', cursive;
+}
+
 .mensagemNatal{
 	color:gold;
 	font-size: xx-large;
+	
 }
+
 #segundop{	
 	font-weight: bold;
 	background-color:blue;
 }
 
-.vermelho{
+.descricao{
 	color: blue;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 40px;
+	padding:15px;
+	margin:0;
 }
 
 #titulo{
 	background: black;
 	width:100%;
-	padding:20px;
 }
 
 td img {
@@ -33,9 +48,9 @@ td img {
 }
 
 .azul{ 	
-	background-color: blue;
-	width: 1350px;
-	font-size: 22px;
+	color:blue;
+	font-size: 85px;
+	padding-left: 15px;
 }
 
 table{
@@ -46,11 +61,7 @@ table{
 	border-spacing: 25px;
 }
 
-body{
-	margin-left:20px;
-	position: absolute;
-	background-color: black;
-}
+
 
 #entrega{
 	position:fixed;
@@ -58,12 +69,13 @@ body{
 	right:10px;
 	height:95px;
 	width:300px;
+	font-family: cursive;
 }
 
 #tel{
 	position: absolute;
-	left:120px;
-	height:80px;
+	left:80px;
+	height:85px;
 	background-color:black;
 	color:blue;
 	margin-top: 10px;
@@ -91,46 +103,54 @@ body{
 	right: 20px;
 	height:550px;
 	width:250px;
+	font-family: cursive;
 	
 }
+
 .peca{
 	color:blue;
 	font: bold;
 	font-size: xx-large;
 	padding-left: 800px;
-	
-
 }
 
 .rodape{
 	background-color: rgb(10, 20, 107);
 	color:rgb(113, 243, 113);
 	text-align:left;
-	font-size:larger;
-
+	font-size:15px;
+	padding: 20px;
+	font-family: cursive;
+	
 }	
 
 .bitcoin{
-	font-size: large;
+	font-size: 8px;
 	color:orange;
-	padding-bottom: 50px;
 	font: bold;
 	font-size: larger;
-
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .assinatura{
 	color:white;
 	text-align: right;
-	padding-right: 250px;
+	padding-right: 300px;
+	font-family: 'Times New Roman', Times, serif;
 	
 }
+
 .bit{
 	color:orange;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
 }
+
 .LinkedIn{
 	text-align: right;
 	color:white;
-	padding-right: 250px;
+	padding-right: 300px;
 	padding-bottom: 15px;
+	font-family: 'Times New Roman', Times, serif;
 }
+

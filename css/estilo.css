@@ -3,11 +3,10 @@ body{
 	position: absolute;
 	background-color: black;
 	font-family: 'Vujahday Script', cursive;
-	text-align: center;
 
 }
 
-h1 {	
+h1{	
 	color:blue;
 	font-size: 180px;
 	padding-left:130px;
@@ -15,14 +14,17 @@ h1 {
 	margin-top: 5%;
 	margin-bottom: 0%;
 	font-family: 'Vujahday Script', cursive;
+
 }
 .produto{
 	text-align: center;
 }
 
-.mensagemNatal{
+.mensagemSazonal{
 	color:gold;
-	font-size: xx-large;
+	font-size: 80px;
+	text-shadow: 10px 20px 30px gold;
+	margin: 0px;
 	
 }
 
@@ -108,9 +110,9 @@ table{
 	color:rgb(255, 0, 149);
 	font-size: xx-large;
 	position: absolute;
-	bottom: 5px;
+	bottom: 450px;
 	right: 20px;
-	height:550px;
+	height:100px;
 	width:250px;
 	font-family: cursive;
 	

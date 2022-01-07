@@ -5,9 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Adele's Crafts </title>
-		<!--importa o css do bootstrap
-		<link rel="stylesheet" href="/bootStrap/css/bootstrap.min.css">-->
-		<!--meu próprio css-->
+		
 		<link rel="stylesheet" href="css/estilo.css" type="text/css" >
 		<link rel="icon" href="img/livro.png">
 	
@@ -15,26 +13,36 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Licorice&family=Tangerine:wght@700&family=Vujahday+Script&display=swap" rel="stylesheet">
-</head>
+		
+<style>
+	h1{animation: mymove 5s infinite;}
+
+	@keyframes mymove {
+		50%{text-shadow: 10px 20px 30px blue;}
+		
+	}
+</style>
+
+	</head>
 	<body>
+	
 		<header>
 
 			<div id="titulo" >
 				<h1> Adele's Crafts </h1>
+				
 				<div class="azul">Pirografia</div>
 
 					<p class="descricao"> 
 						A técnica de queimar a madeira é uma forma primitiva e ancestral de arte<br> 
 						usada desde a descoberta do fogo há mais ou menos 10 mil anos.</p>
-			</div>
-
+					</div>
+			
 		</header>
 
 		<div id="produtos">
 		
-		<p class="mensagemNatal">Feliz dia de Reis</p>
-		
-		
+		<p class="mensagemSazonal">Aproveite os preços simbólicos!!!</p>
 		
 		<table>
 		<tbody>
@@ -80,15 +88,8 @@
 			<p class="tituloproduto"> Plaquinha c/nome <br>R$10,00</P>
 			<img src="img/nome.jpg">
 		</td>
-		<td>
-			<p class="tituloproduto"> Porta chaves <br> R$10,00 </p>
-			<img src="img/portachaves.jpg">
-		</td>
-		
-		
-		</tr>
-
-		<tr>
+	</tr>
+	<tr>
 			<td>
 				<p class="tituloproduto"> Caixa <br> R$15,00</p>
 				<img src="img/caixaAberta.jpg">
@@ -97,6 +98,10 @@
 				<p class="tituloproduto"> Caixa <br> R$15,00</p>
 				<img src="img/caixaFechada.jpg">
 			</td>
+		<td>
+			<p class="tituloproduto"> Porta chaves <br> R$10,00 </p>
+			<img src="img/portachaves.jpg">
+		</td>
 		</tr>
 		</tbody>
 		</table>
@@ -119,9 +124,11 @@
 			
 		<p class="assinatura">Desenvolvido por Adele C. Morais</p>
 		<p class="LinkedIn">linkedIn.com/in/adelecmorais<br><br>
-		Ofereço o serviço de fazer o seu site também!!!</p>
+		</p>
 </footer>
 
 		<script src="To-do list/assets/js/main.js"></script>
+		
+		
 	</body>
 </html>

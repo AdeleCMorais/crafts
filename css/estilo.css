@@ -1,23 +1,57 @@
+:root{
+	--azul:#2a09e5;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
+	background: var(--preta);
 	margin: 2px;
 	position: absolute;
-	background-color: black;
 	font-family: 'Vujahday Script', cursive;
-
-}
-
-h1{	
 	color:blue;
-	font-size: 180px;
-	padding-left:130px;
-	text-align:left;
-	margin-top: 5%;
-	margin-bottom: 0%;
-	font-family: 'Vujahday Script', cursive;
-
 }
+
+header .container{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 20px;
+    color: var(--azul);
+    font-family: 'Vujahday Script', cursive;
+    font-size: 180px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 5px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
 .produto{
 	text-align: center;
+}
+
+.paragrafo{
+	font-size: 36px;
+	color:#fff;
+}
+
+.descricao{
+	font-size: 35px;
 }
 
 .mensagemSazonal{
@@ -28,22 +62,7 @@ h1{
 	
 }
 
-#segundop{	
-	font-weight: bold;
-	background-color:blue;
-	
-}
-
-.descricao{
-	color: blue;
-	font-weight: bold;
-	font-size: 40px;
-	padding:15px;
-	margin:0;
-	text-align: left;
-}
-
-#titulo{
+.container{
 	background: black;
 	width:100%;
 }
@@ -56,13 +75,6 @@ td img {
 	
 }
 
-.azul{ 	
-	color:blue;
-	font-size: 85px;
-	padding-left: 10px;
-	text-align: left;
-}
-
 table{
 	border-spacing: 25px;
 	font-size: 36px;
@@ -71,8 +83,6 @@ table{
 	border-spacing: 25px;
 	text-align: left;	
 }
-
-
 
 #entrega{
 	position:fixed;
@@ -118,13 +128,6 @@ table{
 	
 }
 
-.peca{
-	color:blue;
-	font: bold;
-	font-size: xx-large;
-	padding-left: 800px;
-}
-
 .rodape{
 	background-color: rgb(10, 20, 107);
 	color:rgb(113, 243, 113);
@@ -166,3 +169,67 @@ table{
 	font-family: 'Times New Roman', Times, serif;
 }
 
+/*filme-principal
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
+
+    height: 800px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Arial, sans-serif';
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+
+}
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 25px;
+}
+*/

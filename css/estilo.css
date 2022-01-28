@@ -1,6 +1,8 @@
 :root{
-	--azul:#2a09e5;
-    --preta:#141414;
+	
+	--azul: #0a2ce9;
+    --preta: #020202;
+	--vermelha:#e72a2a;
 }
 
 *{
@@ -9,10 +11,9 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
 body{
 	background: var(--preta);
-	margin: 2px;
-	position: absolute;
 	font-family: 'Vujahday Script', cursive;
 	color:blue;
 }
@@ -25,10 +26,11 @@ header .container{
 }
 
 header .logo{
-    margin-left: 20px;
-    color: var(--azul);
-    font-family: 'Vujahday Script', cursive;
-    font-size: 180px;
+    margin-left: 5px;
+    color: var(--vermelha);
+    font-family: Arial;
+    font-size: 80px;
+	font: bold;
 }
 
 header nav a{
@@ -41,39 +43,100 @@ header nav a:hover{
     color:#fff;
 }
 
-.produto{
-	text-align: center;
+/*filme-principal*/
+.filme-principal{
+    font-size: 30px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
+
+    height: 800px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.paragrafo{
-	font-size: 36px;
-	color:#fff;
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+	font-size: 30px;
+	color:#ffffff;
 }
 
-.descricao{
-	font-size: 35px;
+.titulo{
+    margin-top: 15%;
+    font-size: 180px;
+    font-family: 'Vujahday Script', cursive;
 }
 
-.mensagemSazonal{
-	color:gold;
-	font-size: 80px;
-	text-shadow: 10px 20px 30px gold;
-	margin: 0px;
-	
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+
+}
+.botao i{
+    margin-right: 5px;
 }
 
 .container{
-	background: black;
-	width:100%;
+    margin-left: 20px;
 }
 
-td img {
-	width: 200px;
-	height: 250px;
-	border-radius: 10%;
-	font-weight:bold;
-	
+.filme-principal .container{
+    width: 70%;
 }
+.filme-principal .paragrafo{
+	font-size:60px;
+	color:goldenrod;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.apelo{
+	color:rgb(253, 244, 120);
+	font-size: 56px;
+}
+.carrosel-filmes{
+    margin-top: 25px;
+}
+.preco{
+	color:sandybrown;
+	font-size: 20px;
+}
+
+#entrega{
+	color:white;
+	font-size: 56px;
+}
+
+#list{
+	color:pink;
+	font-size:60px;
+}
+a{
+	color:white;
+	text-decoration:none;
+
+}
+/*css anterior ao css da netflix
+
+
+
 
 table{
 	border-spacing: 25px;
@@ -126,18 +189,7 @@ table{
 	width:250px;
 	font-family: cursive;
 	
-}
-
-.rodape{
-	background-color: rgb(10, 20, 107);
-	color:rgb(113, 243, 113);
-	text-align:left;
-	font-size:15px;
-	padding: 20px;
-	font-family: cursive;
-	margin: 0px;
-	
-}	
+}*/
 
 .bitcoin{
 	font-size: 8px;
@@ -149,87 +201,24 @@ table{
 
 .assinatura{
 	color:white;
-	text-align: right;
-	padding-right: 300px;
-	font-family: 'Times New Roman', Times, serif;
+	font-size: 29px;
 	
 }
 
 .bit{
 	color:orange;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
 }
 
-.LinkedIn{
-	text-align: right;
+.natureza{
+	color:chartreuse;
+	font-size: 28px;
+}
+
+
+
+#LinkedIn{
 	color:white;
-	padding-right: 300px;
-	padding-bottom: 15px;
-	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	
 }
-
-/*filme-principal
-.filme-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
-
-    height: 800px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 90px;
-}
-
-.titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Arial, sans-serif';
-}
-
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border:none;
-    color:white;
-    
-    padding:15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-    transition: .3s ease all;
-
-}
-
-.botao:hover{
-    background-color: white;
-    color:black;
-
-}
-.botao i{
-    margin-right: 5px;
-}
-
-.container{
-    margin-left: 20px;
-}
-
-.filme-principal .container{
-    width: 70%;
-}
-
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-.carrosel-filmes{
-    margin-top: 25px;
-}
-*/

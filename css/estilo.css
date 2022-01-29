@@ -123,6 +123,7 @@ header nav a:hover{
 #entrega{
 	color:white;
 	font-size: 56px;
+	text-align: right;
 }
 
 #list{
@@ -198,22 +199,31 @@ table{
 	font: bold;
 	font-size: larger;
 	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15px;
 }
 
 .assinatura{
 	color:white;
 	font-size: 29px;
+	text-align: right;
 	
 }
-
+.simboloBitcoin{
+	margin-left: 15px;
+}
 .bit{
 	color:orange;
 	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15px;
 }
 
+.foto{
+	margin-left: 15px;
+}
 .natureza{
 	color:chartreuse;
 	font-size: 28px;
+	margin-left: 15px;
 }
 
 
@@ -221,5 +231,6 @@ table{
 #LinkedIn{
 	color:white;
 	font-size: 30px;
+	margin-left: 15px;
 	
 }

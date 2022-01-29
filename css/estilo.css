@@ -37,7 +37,8 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 15px;
+	font-size: 30px;
 }
 
 header nav a:hover{
@@ -124,6 +125,7 @@ header nav a:hover{
 	color:white;
 	font-size: 56px;
 	text-align: right;
+	margin-right: 15px;
 }
 
 #list{
@@ -133,6 +135,7 @@ header nav a:hover{
 a{
 	color:white;
 	text-decoration:none;
+	
 
 }
 /*css anterior ao css da netflix
@@ -206,6 +209,7 @@ table{
 	color:white;
 	font-size: 29px;
 	text-align: right;
+	margin-right: 15px;
 	
 }
 .simboloBitcoin{

@@ -1,0 +1,31 @@
+:root{
+   --amarelo: #f3bf13;
+   --azul: #3336ff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--azul);
+    font-family: cursive;
+    color: var(--amarelo);
+    font-size: 48px;
+    margin-left: 15px;
+}
+
+h1{
+    text-align: center;
+}
+  
+#tabela{
+    text-align: center;
+}
+
+#mocha{
+    text-align: right;
+}

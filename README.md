@@ -1,2 +1,2 @@
-# crafts
-Aplicação estática no github pages
+# Crafts 🖍️
+Aplicação estática no github page

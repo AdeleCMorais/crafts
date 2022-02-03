@@ -117,7 +117,7 @@ header nav a:hover{
     margin-top: 25px;
 }
 .preco{
-	color:sandybrown;
+	color:#f4a460;
 	font-size: 20px;
 }
 
@@ -134,10 +134,16 @@ header nav a:hover{
 }
 a{
 	color:white;
-	text-decoration:none;
-	
+	text-decoration:none;	
+}
+
+.mocha{
+	color:#f4a460;
+	font-size: 25px;
 
 }
+
+
 /*css anterior ao css da netflix
 
 
@@ -230,11 +236,11 @@ table{
 	margin-left: 15px;
 }
 
+a#LinkedIn{
+	text-align: right;
+	margin-left: 1350px;
 
-
-#LinkedIn{
-	color:white;
-	font-size: 30px;
-	margin-left: 15px;
-	
+}
+a#Instagram{
+	text-align:right;
 }

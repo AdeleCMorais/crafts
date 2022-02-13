@@ -122,13 +122,6 @@ header nav a:hover{
 	font-size: 20px;
 }
 
-#entrega{
-	color:white;
-	font-size: 56px;
-	text-align: right;
-	margin-right: 15px;
-}
-
 #list{
 	color:pink;
 	font-size:60px;
@@ -215,7 +208,7 @@ table{
 .assinatura{
 	color:white;
 	font-size: 29px;
-	text-align: right;
+	text-align: center;
 	margin-right: 15px;
 	
 }
@@ -244,4 +237,21 @@ a#LinkedIn{
 }
 a#Instagram{
 	text-align:right;
+}
+
+a#email{
+	text-align: right;
+	margin-left: 1350px;
+}
+
+a#whatsapp{
+	text-align: right;
+	margin-left: 1350px;
+}
+
+h4{
+	color:white;
+	font-size: 35px;
+	margin-left: 1165px;
+	
 }
